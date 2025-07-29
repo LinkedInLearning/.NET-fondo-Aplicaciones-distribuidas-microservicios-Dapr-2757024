@@ -1,0 +1,11 @@
+@FabuRobotics.Shop.Api_HostAddress = http://localhost:5502
+
+POST {{FabuRobotics.Shop.Api_HostAddress}}/api/shop
+Accept: application/json
+Content-Type: application/json
+{
+  "customerId": "1",
+  "sku": "fb-01",
+  "quantity": 1
+}
+###

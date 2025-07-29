@@ -1,0 +1,17 @@
+version: 1
+apps:
+  - appID: inventory-api
+    appDirPath: ./FabuRobotics.Inventory.Api
+    appPort: 5500
+    daprHTTPPort: 55000
+    command: ["dotnet","run", "--urls=http://+:5500"]
+  - appID: production-api
+    appDirPath: ./FabuRobotics.Production.Api
+    appPort: 5501
+    daprHTTPPort: 55001
+    command: ["dotnet","run", "--urls=http://+:5501"]
+  - appID: shop-api
+    appDirPath: ./FabuRobotics.Shop.Api
+    appPort: 5502
+    daprHTTPPort: 55002
+    command: ["dotnet","run", "--urls=http://+:5502"]

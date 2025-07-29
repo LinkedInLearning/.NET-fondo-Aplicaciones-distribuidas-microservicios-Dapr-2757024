@@ -1,0 +1,12 @@
+version: 1
+apps:
+  - appID: api1
+    appDirPath: ./webapi1
+    appPort: 5500
+    daprHTTPPort: 55000
+    command: ["dotnet","run", "--urls=http://+:5500"]
+  - appID: api2
+    appDirPath: ./webapi2
+    appPort: 5501
+    daprHTTPPort: 55001
+    command: ["dotnet","run", "--urls=http://+:5501"]
