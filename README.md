@@ -1,6 +1,6 @@
 # .NET a fondo: Aplicaciones distribuidas y microservicios con Dapr
 
-Este es el repositorio del curso *.NET a fondo: Aplicaciones distribuidas y microservicios con Dapr*. El curso completo está disponible en [LinkedIn Learning].
+Este es el repositorio del curso *.NET a fondo: Aplicaciones distribuidas y microservicios con Dapr*. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
 DESCRIPCIÓN DEL CURSO
 
@@ -20,4 +20,4 @@ Las ramas se han organizado de acuerdo con los videos del curso, siguiendo la co
 
 Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/rodrigo-diaz-concha).
 
-[lil-course-url]: https://www.linkedin.com/learning/dot-net-avanzado/introduccion-a-dot-net-avanzado
+[lil-course-url]: https://www.linkedin.com/learning/dot-net-a-fondo-aplicaciones-distribuidas-y-microservicios-con-dapr
